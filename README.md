@@ -33,47 +33,45 @@ Assicurati di avere installato Node.js e npm (o yarn).
 
 1. **Clona il repository:**
 
-   ```bash
-   git clone https://github.com/Geppe1990/react-boilerplate.git
-   cd react-boilerplate
-   ```
+    ```
+    git clone https://github.com/Geppe1990/react-boilerplate.git
+    cd react-boilerplate
+    ```
 
-2.	**Installa le dipendenze:**
-
-    ```bash
-   npm install
-   ```
+2. **Installa le dipendenze:**
+    ```
+    	npm install
+    ```
 
 3. **Avvia il server di sviluppo:**
-
-    ```bash
-   npm run dev
-   ```
+    ```
+    	npm run dev
+    ```
 4. **Apri il browser:**
 
-    Vai a http://localhost:3000 per vedere il progetto in esecuzione.
+   Vai a http://localhost:3000 per vedere il progetto in esecuzione.
 
 ### 📂 Struttura del Progetto
-```bash
-my-react-app/
-├── src/
-│   ├── components/
-│   │   ├── Header.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Counter.tsx
-│   ├── features/
-│   │   ├── counter/
-│   │   │   ├── counterSlice.ts
-│   ├── store/
-│   │   ├── index.ts
-│   ├── App.tsx
-│   ├── main.tsx
-│   ├── index.css
-│   └── …
-├── package.json
-├── vite.config.ts
-└── …
-```
+
+        my-react-app/
+        ├── src/
+        │   ├── components/
+        │   │   ├── Header.tsx
+        │   │   ├── Footer.tsx
+        │   │   ├── Counter.tsx
+        │   ├── features/
+        │   │   ├── counter/
+        │   │   │   ├── counterSlice.ts
+        │   ├── store/
+        │   │   ├── index.ts
+        │   ├── App.tsx
+        │   ├── main.tsx
+        │   ├── index.css
+        │   └── …
+        ├── package.json
+        ├── vite.config.ts
+        └── …
+
 
 ### 🧑‍💻 Utilizzo
 **Componente Counter**
@@ -85,23 +83,27 @@ Il componente Counter utilizza Redux per gestire lo stato del contatore.
 	•	Reset: Resetta il contatore a 0.
 
 **Styled Components**
+
 ```jsx
 import styled from 'styled-components';
 
-const HeaderContainer = styled.header\`
+const HeaderContainer = styled.header`
   background-color: #282c34;
   padding: 20px;
   color: white;
   text-align: center;
-\`;
+  `;
 ```
 
 ### 🛠️ Strumenti di Sviluppo
+	- ESLint: Per lanciare ESLint, esegui: **
 
-	** ESLint: Per lanciare ESLint, esegui: **
     ```npm run lint```
+    
 	** Prettier: Per formattare il codice, esegui: **
+    
     ```npm run lint```
+
 
 ### 📝 Licenza
 Distribuito sotto la licenza MIT. Vedi LICENSE per maggiori informazioni.
