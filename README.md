@@ -33,26 +33,27 @@ Assicurati di avere installato Node.js e npm (o yarn).
 
 1. **Clona il repository:**
 
-    ```
-    git clone https://github.com/Geppe1990/react-boilerplate.git
-    cd react-boilerplate
-    ```
+<pre>
+git clone https://github.com/Geppe1990/react-boilerplate.git
+cd react-boilerplate
+</pre>
 
 2. **Installa le dipendenze:**
-    ```
-    	npm install
-    ```
+<pre>
+npm install
+</pre>
 
 3. **Avvia il server di sviluppo:**
-    ```
-    	npm run dev
-    ```
+<pre>
+npm run dev
+</pre>
+
 4. **Apri il browser:**
 
    Vai a http://localhost:3000 per vedere il progetto in esecuzione.
 
 ### 📂 Struttura del Progetto
-
+<pre>
         my-react-app/
         ├── src/
         │   ├── components/
@@ -71,16 +72,16 @@ Assicurati di avere installato Node.js e npm (o yarn).
         ├── package.json
         ├── vite.config.ts
         └── …
-
+</pre>
 
 ### 🧑‍💻 Utilizzo
 **Componente Counter**
 
 Il componente Counter utilizza Redux per gestire lo stato del contatore.
 
-	•	Incrementa: Incrementa il contatore di 1.
-	•	Decrementa: Decrementa il contatore di 1.
-	•	Reset: Resetta il contatore a 0.
+	Incrementa: Incrementa il contatore di 1.
+	Decrementa: Decrementa il contatore di 1.
+	Reset: Resetta il contatore a 0.
 
 **Styled Components**
 
@@ -96,13 +97,8 @@ const HeaderContainer = styled.header`
 ```
 
 ### 🛠️ Strumenti di Sviluppo
-	- ESLint: Per lanciare ESLint, esegui: **
-
-    ```npm run lint```
-    
-	** Prettier: Per formattare il codice, esegui: **
-    
-    ```npm run lint```
+	- ESLint: Per lanciare ESLint, esegui: npm run lint
+	- Prettier: Per formattare il codice, esegui: npm run lint
 
 
 ### 📝 Licenza
