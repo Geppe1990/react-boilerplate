@@ -42,14 +42,14 @@ Assicurati di avere installato Node.js e npm (o yarn).
    ```
 3. **Avvia il server di sviluppo:**
    ```
-  npm run dev
-  ```
+   npm run dev
+   ```
 4. **Apri il browser:**
 
    Vai a http://localhost:3000 per vedere il progetto in esecuzione.
 
 ## 📂 Struttura del Progetto
-```
+   ```
         my-react-app/
         ├── src/
         │   ├── components/
@@ -68,7 +68,7 @@ Assicurati di avere installato Node.js e npm (o yarn).
         ├── package.json
         ├── vite.config.ts
         └── …
-```
+   ```
 
 ## 🧑‍💻 Utilizzo
 **Componente Counter**
