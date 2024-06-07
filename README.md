@@ -32,28 +32,24 @@ Assicurati di avere installato Node.js e npm (o yarn).
 ### Passi per l'installazione
 
 1. **Clona il repository:**
-
-<pre>
-git clone https://github.com/Geppe1990/react-boilerplate.git
-cd react-boilerplate
-</pre>
-
+   ```
+   git clone https://github.com/Geppe1990/react-boilerplate.git
+   cd react-boilerplate
+   ```
 2. **Installa le dipendenze:**
-<pre>
-npm install
-</pre>
-
+   ```
+   npm install
+   ```
 3. **Avvia il server di sviluppo:**
-<pre>
-npm run dev
-</pre>
-
+   ```
+  npm run dev
+  ```
 4. **Apri il browser:**
 
    Vai a http://localhost:3000 per vedere il progetto in esecuzione.
 
-### 📂 Struttura del Progetto
-<pre>
+## 📂 Struttura del Progetto
+```
         my-react-app/
         ├── src/
         │   ├── components/
@@ -72,16 +68,16 @@ npm run dev
         ├── package.json
         ├── vite.config.ts
         └── …
-</pre>
+```
 
-### 🧑‍💻 Utilizzo
+## 🧑‍💻 Utilizzo
 **Componente Counter**
 
 Il componente Counter utilizza Redux per gestire lo stato del contatore.
 
-	Incrementa: Incrementa il contatore di 1.
-	Decrementa: Decrementa il contatore di 1.
-	Reset: Resetta il contatore a 0.
+- **Incrementa**: Incrementa il contatore di 1.
+- **Decrementa**: Decrementa il contatore di 1.
+- **Reset**: Resetta il contatore a 0.
 
 **Styled Components**
 
@@ -93,27 +89,27 @@ const HeaderContainer = styled.header`
   padding: 20px;
   color: white;
   text-align: center;
-  `;
+`;
 ```
 
-### 🛠️ Strumenti di Sviluppo
-	- ESLint: Per lanciare ESLint, esegui: npm run lint
-	- Prettier: Per formattare il codice, esegui: npm run lint
+## 🛠️ Strumenti di Sviluppo
+- ESLint: Per lanciare ESLint, esegui: npm run lint
+- Prettier: Per formattare il codice, esegui: npm run lint
 
 
-### 📝 Licenza
+## 📝 Licenza
 Distribuito sotto la licenza MIT. Vedi LICENSE per maggiori informazioni.
 
-### 🤝 Contributi
+## 🤝 Contributi
 I contributi sono ciò che rende la comunità open source un posto straordinario per imparare, ispirare e creare. Qualsiasi contributo è molto apprezzato.
 
-	1.	Forka il progetto.
-	2.	Crea un branch per la tua funzionalità (git checkout -b feature/AmazingFeature).
-	3.	Fai commit delle tue modifiche (git commit -m 'Add some AmazingFeature').
-	4.	Pusha il branch (git push origin feature/AmazingFeature).
-	5.	Apri una Pull Request.
+1.	Forka il progetto.
+2.	Crea un branch per la tua funzionalità (git checkout -b feature/AmazingFeature).
+3.	Fai commit delle tue modifiche (git commit -m 'Add some AmazingFeature').
+4.	Pusha il branch (git push origin feature/AmazingFeature).
+5.	Apri una Pull Request.
 
-📧 Contatti
+## 📧 Contatti
 
-	•	Email: geppe1990@gmail.com
-	•	GitHub: https://github.com/Geppe1990
+<a href="mailto:geppe1990@gmail.com"><img src="https://img.shields.io/badge/Email-geppe1990@gmail.com-red.svg" alt="Email"></a>
+<a href="https://github.com/Geppe1990"><img src="https://img.shields.io/badge/GitHub-Geppe1990-lightgrey.svg" alt="GitHub"></a>
