@@ -46,7 +46,7 @@ Assicurati di avere installato Node.js e npm (o yarn).
    ```
 4. **Apri il browser:**
 
-   Vai a http://localhost:3000 per vedere il progetto in esecuzione.
+   Vai a http://localhost:5173 per vedere il progetto in esecuzione.
 
 ## 📂 Struttura del Progetto
    ```
@@ -58,7 +58,7 @@ Assicurati di avere installato Node.js e npm (o yarn).
         │   │   ├── Counter.tsx
         │   ├── features/
         │   │   ├── counter/
-        │   │   │   ├── counterSlice.ts
+        │   │   │   ├── store.ts
         │   ├── store/
         │   │   ├── index.ts
         │   ├── App.tsx
@@ -71,15 +71,15 @@ Assicurati di avere installato Node.js e npm (o yarn).
    ```
 
 ## 🧑‍💻 Utilizzo
-**Componente Counter**
+### Componente Counter
 
 Il componente Counter utilizza Redux per gestire lo stato del contatore.
 
-- **Incrementa**: Incrementa il contatore di 1.
-- **Decrementa**: Decrementa il contatore di 1.
-- **Reset**: Resetta il contatore a 0.
+- **increment**: Incrementa il contatore di 1.
+- **decrement**: Decrementa il contatore di 1.
+- **reset**: Resetta il contatore a 0.
 
-**Styled Components**
+### Styled Components
 
 ```jsx
 import styled from 'styled-components';
